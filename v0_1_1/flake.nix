@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-svdpi-v0_1_1.flake = false;
+  inputs.src-svdpi-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-svdpi-v0_1_1.owner = "kaushalmodi";
-  inputs.src-svdpi-v0_1_1.ref   = "v0_1_1";
   inputs.src-svdpi-v0_1_1.repo  = "nim-svdpi";
   inputs.src-svdpi-v0_1_1.type  = "github";
   
