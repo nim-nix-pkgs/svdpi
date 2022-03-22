@@ -9,13 +9,14 @@
   
   inputs.src-svdpi-v0_2_0.flake = false;
   inputs.src-svdpi-v0_2_0.owner = "kaushalmodi";
-  inputs.src-svdpi-v0_2_0.ref   = "refs/tags/v0.2.0";
+  inputs.src-svdpi-v0_2_0.ref   = "v0_2_0";
   inputs.src-svdpi-v0_2_0.repo  = "nim-svdpi";
   inputs.src-svdpi-v0_2_0.type  = "github";
   
   inputs."nimterop".owner = "nim-nix-pkgs";
   inputs."nimterop".ref   = "master";
   inputs."nimterop".repo  = "nimterop";
+  inputs."nimterop".dir   = "";
   inputs."nimterop".type  = "github";
   inputs."nimterop".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimterop".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
