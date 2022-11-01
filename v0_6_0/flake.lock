@@ -128,7 +128,7 @@
         "flakeNimbleLib": "flakeNimbleLib",
         "nimterop": "nimterop",
         "nixpkgs": "nixpkgs",
-        "src-svdpi-master": "src-svdpi-master"
+        "src-svdpi-v0_6_0": "src-svdpi-v0_6_0"
       }
     },
     "src-cligen-v1_5_31": {
@@ -182,7 +182,7 @@
         "type": "github"
       }
     },
-    "src-svdpi-master": {
+    "src-svdpi-v0_6_0": {
       "flake": false,
       "locked": {
         "lastModified": 1662435505,
@@ -194,7 +194,7 @@
       },
       "original": {
         "owner": "kaushalmodi",
-        "ref": "refs/heads/master",
+        "ref": "refs/tags/v0.6.0",
         "repo": "nim-svdpi",
         "type": "github"
       }
